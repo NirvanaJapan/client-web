@@ -1,0 +1,10 @@
+version: '2'
+services:
+  node:
+    image: node:7
+    volumes:
+      - .:/home/root
+    ports:
+      - 3000:3000
+    command: tail -f /dev/null
+
