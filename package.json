@@ -1,14 +1,19 @@
 {
   "name": "koedashi",
-  "version": "0.1.0",
+  "homepage": "https://tranquil-caverns-20547.herokuapp.com",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
+    "react-audio-recorder-dist": "^2.0.2",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
+  },
+  "engines": {
+    "node": "7.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
